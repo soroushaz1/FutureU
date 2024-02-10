@@ -9,7 +9,21 @@
 
   <body>
     <canvas id="renderCanvas"></canvas>
-
+    <div id="controls-container" style="position: absolute; top: 10px; left: 10px; z-index: 100;">
+      <div id="slider-container">
+        <input type="range" id="debugSlider" min="0" max="5" step="1" value="0">
+        <p>Value: <span id="sliderValue">0.0</span></p>
+      </div>
+      <div id="animation-container">
+        <select id="animationSelector">
+          <option value="animatioOne">Animation 1</option>
+          <option value="animatioTwo">Animation 2</option>
+          <option value="animatioThree">Animation 3</option>
+        </select>        
+        <p>Animation: <span id="animationName">Animation 1</span></p>
+      </div>
+    </div>
     <script src="src/index.js"></script>
+
   </body>
 </html>
