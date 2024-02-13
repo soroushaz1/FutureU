@@ -16,9 +16,9 @@ import {
 } from "@babylonjs/core";
 import "@babylonjs/loaders/glTF/2.0";
 import "@babylonjs/core/Helpers/sceneHelpers";
-import animatioOne from "../src/assets/pey_finished_0.gltf";
-import animatioTwo from "../src/assets/pey_finished_1.gltf";
-import animatioThree from "../src/assets/pey_finished_2.gltf";
+import animationOne from "../src/assets/pey_finished_0.gltf";
+import animationTwo from "../src/assets/pey_finished_1.gltf";
+import animationThree from "../src/assets/pey_finished_2.gltf";
 import env from "../src/assets/environment.env";
 import texture from "../src/assets/baked_texture_bw_img_blured_baked.png"
 import charToneZero from "../src/assets/gltfs/pey_finished_2_tone_0.0.gltf"
